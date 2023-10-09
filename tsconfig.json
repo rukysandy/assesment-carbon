@@ -1,12 +1,17 @@
 {
   "extends": "expo/tsconfig.base",
   "compilerOptions": {
-    "strict": true,
+    "strict": true
   },
   "include": [
     "**/*.ts",
     "**/*.tsx",
     ".expo/types/**/*.ts",
-    "expo-env.d.ts"
+    "expo-env.d.ts",
+    "DataStore.jsx",
+    "app/(tabs)/index.jsx",
+    "app/_layout.jsx",
+    "app/(tabs)/_layout.jsx",
+    "app/(tabs)/profile.jsx"
   ]
 }

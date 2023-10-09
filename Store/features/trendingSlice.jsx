@@ -3,7 +3,7 @@ const initialState = {
   trendingBlessing: [
     {
       id: "0",
-      avatar: require("../../assets/images/messageAvatar.png"),
+      avatar: require("../../assets/images/trendingAvatar.png"),
       name: "@chuks",
       purpose: "Car move",
       received_Amount: "N1,000,000",
@@ -13,7 +13,7 @@ const initialState = {
     },
     {
       id: "1",
-      avatar: require("../../assets/images/messageAvatar.png"),
+      avatar: require("../../assets/images/meaasageAvatar2.png"),
       name: "@flygirl",
       purpose: "Switz Adventure",
       received_Amount: "N5,000,000",

@@ -31,6 +31,7 @@ const CarouselCard = ({
           style={{
             width: 78,
             height: 78,
+            borderRadius: 40,
           }}
         />
         <Text style={styles.nameText}>{name}</Text>
@@ -38,11 +39,13 @@ const CarouselCard = ({
 
         <View style={styles.nickNameContainer}>
           <Text style={styles.followersText}>{nickName}</Text>
+
           <Image
             source={require("../assets/images/green-star.png")}
             style={{
               width: 10,
               height: 10,
+              borderRadius: 10,
             }}
           />
         </View>
